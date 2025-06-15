@@ -1,0 +1,11 @@
+version: "3"
+services:
+
+  text_simplification:
+    image: text_simplification
+    volumes: 
+        - ./workspace:/workspace
+    
+    tty: true
+    environment:
+        - HOST_WORKSPACE=${HOST_WORKSPACE}

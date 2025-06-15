@@ -1,0 +1,14 @@
+pandas
+numpy<2.0
+tqdm
+ipywidgets
+openai==1.70.0
+transformers==4.50.3
+nltk
+spacy
+torch==2.1.2 --extra-index-url https://download.pytorch.org/whl/cpu
+ipykernel
+jupyter
+ipywidgets
+bert-score
+textstat
